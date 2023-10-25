@@ -1,0 +1,22 @@
+.score-board{
+  width: 320px;
+  display: grid;
+  grid-auto-flow: column;
+  
+}
+
+.score-board div{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.X{
+  background: red;
+}
+
+.O{
+  background: blue;
+}
